@@ -4,6 +4,7 @@
 	python -m venv env_shap
 
 2) Activate your virtual environment
+
 	env_shap\Scripts\activate -- Windows
 	
 	source env_shap/bin/activate -- Ubuntu
