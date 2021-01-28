@@ -1,6 +1,7 @@
 ## Setup Environment
 
 1) Create python virtual environment
+
 	python -m venv env_shap
 
 2) Activate your virtual environment
@@ -10,12 +11,15 @@
 	source env_shap/bin/activate -- Ubuntu
 
 3) Install all the packages in your virtual environment
+
 	pip install -r requirements.txt
 
 4) Create kernel
+
 	python -m ipykernel install --user --name shap --display-name shap-kernel
 
 5) Launch Jupyter notebook
+
 	jupyter lab
 
 6) Connect jupyter to kernel shap-kernel
